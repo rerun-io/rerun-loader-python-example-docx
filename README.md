@@ -55,3 +55,9 @@ or you can open it directly from the terminal like:
 ```bash
 rerun example.docx
 ```
+
+## Rerun support table
+
+| rerun                                                            | rerun-loader-python-example-docx                                                       |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [0.12](https://github.com/rerun-io/rerun/releases/tag/0.12.0)    | [0.1](https://github.com/rerun-io/rerun-loader-python-example-docx/releases/tag/0.1.0) |
