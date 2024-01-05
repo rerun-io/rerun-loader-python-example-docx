@@ -30,9 +30,11 @@ If you don't have `pipx` installed on your system, you can follow the official i
 Now you can install the plugin to your `PATH` using
 
 ```bash
-pipx install git@github.com:rerun-io/rerun-loader-python-example-docx.git
+pipx install git+https://github.com/rerun-io/rerun-loader-python-example-docx.git
 pipx ensurepath
 ```
+Note: you can use the `--python` argument to specify the Python interpreter to use with pipx.
+On unix-like systems `--python $(which python)` will use the currently active Python.
 
 Make sure it's installed by running it from your terminal, which should output an error and usage description:
 ```bash
